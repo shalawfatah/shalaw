@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 
 const welcome = require('cli-welcome');
-const pkgJSON = require('./package.json')
+const pkgJSON = require('./package.json');
+const chalk = require('chalk');
 
 welcome({
     title: pkgJSON.name,
@@ -15,7 +16,7 @@ welcome({
 })
 
 console.log(`
-👋 I'm Shalaw, a web developer focusing on frontend & tea. 
+👋 I'm Shalaw, a web developer focusing on ${chalk.blue('frontend')} & ${chalk.green('green')}. 
 I'm a passionate self-taught web developer with years of experience, 
 focusing on the frontend, especially Javascript & React. 
 Unlike the stereotype, I do not want to write "beautiful code", 
