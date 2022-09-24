@@ -1,11 +1,11 @@
 {
     "name": "shalaw",
     "version": "1.0.3",
-    "type": "module",
+    "description": "Get to know Shalaw via NPM",
     "bin": {
         "shalaw": "index.js"
     },
     "dependencies": {
-        "clear-any-console": "^1.16.2"
+        "cli-welcome": "^2.2.2"
     }
 }
