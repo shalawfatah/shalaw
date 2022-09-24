@@ -1,4 +1,8 @@
 #!/usr/bin/env node
+import clearConsole from 'clear-any-console'
+// Clears the console.
+clearConsole();
+
 console.log(`
 👋 I'm Shalaw, a web developer focusing on frontend & tea. 
 I'm a passionate self-taught web developer with years of experience, 
