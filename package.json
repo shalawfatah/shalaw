@@ -11,5 +11,13 @@
     "keywords": [
         "shalaw fatah",
         "shalaw"
-    ]
+    ],
+    "license": "MIT",
+    "main": "index.js",
+    "repository": "https://github.com/shalawfatah/shalaw",
+    "author": {
+        "name": "Shalaw Fatah",
+        "email": "shalaw.fatah@gmail.com",
+        "url": "https://shalaw.tech"
+    }
 }
